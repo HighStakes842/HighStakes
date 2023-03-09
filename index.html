@@ -6,7 +6,7 @@
 	<meta "HighStakes LocalOffer SEND" > </meta>
 </head>
 <body>
-	<div id = "header">
+	<div id = "header" class = "fixed">
 		<ul>
 			<li><a href = "#card"> About Game </a></li>
 			<li><a href = "#progress"> Game Progress </a></li>
@@ -14,7 +14,7 @@
 		
 		<ul>
 	</div>
-	
+	<div id = "smallgap"> </div>
 	<div id = "logoholder" class = "center">
 		<img id = "logo" src = "Images/Logo.png" alt = "Logo" class = "center">
 	</div>
@@ -28,13 +28,13 @@
 	</div>
 	
 	<div id = "progress" class = "center">
-		<iframe src = "Progress.txt" id ="progressTextFile"></iframe>
+		<iframe src = "progress.html" id ="progressTextFile"></iframe>
 	</div>
 	
 	<div id = "gap"> </div>
 	
 	<div id = "form">
-		<div id = "header">
+		<div id = "header" class = "bigtext">
 			<p> To get into contact with me, type a message and your email here. </p>
 		</div>
 		<p id = "formtext" > your email goes here </p>
@@ -43,7 +43,7 @@
 		<p id = "formtext"> message goes here </p>
 		<input id = "Message" class = "formInput">
 		<br>
-		<button type="button" onclick="submit_form()" type = "submit_form">Submit</button>
+		<button type="button" onclick="submit_form()" type = "submit_form" id = "submitbutton">Submit</button>
 		<p id = "BreadText"> </p>
 	
 	</div>

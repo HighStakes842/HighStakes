@@ -168,10 +168,10 @@ li a:hover{
 }
 @media only screen and (hover: none) and (pointer: coarse){
 	#header{
-		height: 300px;
+		height: 200px;
 	}
 	li a{
-		font-size: 3em;
+		font-size: 2em;
 	}
 }
 

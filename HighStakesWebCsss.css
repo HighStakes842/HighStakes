@@ -160,3 +160,8 @@ li a:hover{
 	margin-left: auto;
 	margin-right: auto;
 }
+@media only screen and (hover: none) and (pointer: coarse){
+	#header{
+		height: 300px;
+	}
+}

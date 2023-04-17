@@ -1,6 +1,7 @@
 <html>
 <head>
-	<link rel="stylesheet"type="text/css" href="HighStakesWebCsss.css"/>
+	<link rel="stylesheet"type="text/css" href="High-Stakes-CSS.css"/>
+	<script src= "JavaStakes.js"></script>
 </head>
 <body id = "progpage">
 	<div id = "header" class = "bigtext">
@@ -23,6 +24,34 @@ It shows 2 of the enemies and all 3 of the guns along with the boss. <br>
 More will be explained in future progress updates
 				</p>
 				<center> <img src = "Images/MeanMushroom-Sheet.png"> </center>
+			</li>
+			<li>
+				<p>
+					<center>-progress 2 - </center> <br>
+I have added 2 more bosses, being a loch ness monster and fenrir. I also have fixed an issue where enemies would spawn in the walls. I also added an enemy that would shoot wall the walls and another enemy that would steal the weapon of the player. <br>
+
+The enemy spawning through walls glitch was fixed by putting areas around a room and then having them be put inside of a list that the enemy spawner has acces to. The spawner then gets a random number and takes the area that is equal to the number in the list.
+Then I got the hight and width of that area, and subtracted the hight and width of the enemy on each of the sides of the area. Finally using a random number generator, I got a random point of the area and spawned the enemy there. <br>
+
+
+The way the weapon steal works is that the enemy checks all of the players child nodes and then if any of them are placed in the group of weapon, then it removes it as a child of the player and puts it as a child of itself. <br>
+For the weapon to hit the player, there are exported variables inside the scripts of the weapons called enemy, and if this is set to true the weapon or its projectiles will check for the player to damage and not the enemies. <br>
+
+
+
+				</p>
+			</li>
+			<li>
+				<p>
+					<center>-progress 3-</center>
+This part is mostly done for updating the hub, to make it more lively and to make it give the player things to progress with and not just making them do runs that have no purpose of getting far. <br>
+The first thing I did was working on saving some stats, which I could then use to check whether things should be in the hub or not, and so if you exit the game, you dont have to restart all progress.
+The first thing that I did was create a gnome shop that just gives you a weapon and some stat boosts for the runs, and upon completeting the game, you get an outfit change. <br>
+After this I also this I also created a proper shop, where any coins you don't use in the runs then get saved and can be used to buy extra things. At the moment you can buy a dash, a specific gun, a extra start weapon slot and an outfit change to make you looknlike a knight. <br>
+And finally I made a statue that appears once you beat the game. Pressing shift next to this statue will make it turn red, and it will make the next run you play harder, and add 4 rooms you have to beat to beat the runs. <br>
+
+The game is getting much closer to being in a playable state.
+				</p>
 			</li>
 		</ul>
 	</div>

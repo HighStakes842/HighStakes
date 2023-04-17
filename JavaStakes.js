@@ -25,3 +25,9 @@ function submit_form(){
 function give_alert(){
 	alert("The link does not work as of yet")
 }
+
+function increase_text_size(){
+	document.getElementById("card").style.fontSize = "4em";
+	document.getElementById("progress").style.height = "80%";
+	alert("Text Size Increased");
+}

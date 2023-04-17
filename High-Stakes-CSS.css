@@ -6,6 +6,7 @@ body{
 		background-size: cover;
 		
 		font-family: dyslexiafriendly;
+		font-size: 1em;
 }
 @font-face {
 	font-family: dyslexiafriendly;
@@ -209,4 +210,17 @@ li a:hover{
 
 #submitbutton:hover{
 	background-color: grey;
+}
+
+.automaticHeight{
+	height: auto;
+}
+
+#GetBig{
+	display: inline-block;
+	padding: 0px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	font-family: dyslexiafriendly;
 }
